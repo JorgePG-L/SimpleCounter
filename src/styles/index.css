@@ -10,3 +10,40 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.all{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(82, 40, 11);
+    height: 100vh;
+  
+    
+}
+.back {
+    margin: 30px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(0, 0, 0);
+    width: 50%;
+    height: 200px;
+    align-items: center;
+    padding: 50px;
+    border-radius: 10px;
+  
+    border: thick double #7c7c7c;
+}
+
+
+
+.fas,.celda{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    font-size: 80px;
+    background-color: grey;
+    
+    border-radius: 10px;
+    border: thick double #000000;
+    height: 150px;
+    color: beige;
+   
+}
